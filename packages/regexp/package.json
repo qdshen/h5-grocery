@@ -1,0 +1,26 @@
+{
+  "name": "@grocery/regexp",
+  "version": "0.1.0",
+  "description": "Commonly used Javascript regular expression library.",
+  "author": "sljin <sljin@iflytek.com>",
+  "email": "sljin@iflytek.com",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "compile": "tsc",
+    "build": "npm run clean && npm run compile"
+  },
+  "keywords": [
+    "grocery",
+    "regexp"
+  ],
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://artifacts.iflytek.com/artifactory/api/npm/npm-private/"
+  }
+}

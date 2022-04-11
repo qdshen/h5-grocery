@@ -1,0 +1,26 @@
+{
+  "name": "@grocery/weixin",
+  "version": "0.1.0",
+  "description": "Commonly used Javascript weixin relative utils library, contains weixin share and env test and so on...",
+  "author": "sljin <sljin@iflytek.com>",
+  "email": "sljin@iflytek.com",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [
+    "grocery",
+    "weixin",
+    "微信分享",
+    "微信环境检测"
+  ],
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://artifacts.iflytek.com/artifactory/api/npm/npm-private/"
+  }
+}

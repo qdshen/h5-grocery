@@ -1,0 +1,22 @@
+{
+  "name": "h5-grocery",
+  "version": "0.1.0",
+  "description": "The experience pool of front-end developers, contains utils like weixin share, common used regexp, env test and so on...",
+  "author": "sljin <sljin@iflytek.com>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "build:config": "lerna exec --scope @grocery/config -- npm run build",
+    "build:regexp": "lerna exec --scope @grocery/regexp -- npm run build",
+    "build:system": "lerna exec --scope @grocery/system -- npm run build",
+    "build:weixin": "lerna exec --scope @grocery/weixin -- npm run build"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.63.0",
+    "typescript": "^4.5.4"
+  }
+}
